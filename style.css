@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.cointaner{
+
+    width:100%;
+    height: 100vh;
+    margin:0 auto;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    left:30%;
+    top:123px;
+
+}
+.left h1{
+   
+    color: white;
+    font-size: 50px;
+
+    
+}
+.left .small{
+    font-size:20px;
+}
+.second{
+    width:100%;
+    height: 100px;
+    background-color: rgb(29, 25, 25);
+}
+.second{
+    width: 100%;
+    margin:0 auto;
+}
+.center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+   
+
+}
+.center h1{
+    margin-top: 0px;
+    font-size: 40px;
+}
+.center .big{
+    font-size: 70px;
+    word-spacing: 8px;
+}
+.main-section{
+    width: 79%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+   
+    
+}
+.second-section{
+    width: 80%;
+    display: grid;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px;
+    grid-column-gap: 10px;
+    color:black;
+    margin-top:130px;
+    
+    
+    
+}
+.ceard-one{
+    width:320px;
+    height: 165px;
+    background:rgb(255, 255, 255);
+    margin:4px 5x;
+    box-shadow: 4px 4px 5px rgb(133, 129, 129);
+    
+}
+.ceard-one h3{
+
+   text-align: center;
+}
+.second-section p{
+    text-align: justify;
+    padding:10px 10px;
+}
+
+
+.end{
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    
+    
+
+}
+.contact{
+
+    background-color: yellow;
+    height: 200px;
+    padding:20px;
+    width: 600px;
+
+
+}
+.contact p{
+    text-align: justify;
+}
+.about{
+    background-color: rgb(133, 133, 88);
+    height: 200px;
+    padding:20px;
+    width: 600px;
+    
+}
+.about p{
+    text-align: justify;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    border:1px solid red;
+    background: #000;
+    color: antiquewhite;
+}
+.footer h1{
+    text-align: center;
+}
